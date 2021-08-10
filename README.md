@@ -7,7 +7,7 @@ App Info: "Scool Management System" is a mobile application which created to man
 It helps to manage student related information, manage staff related information and send messages.
 
 Group Members:
-IT19143828 - Munasinghe M.A.S.S 
-IT19220048 - Jayasekara D.D.K.G
-IT19099132 - Rajakaruna R.W.P.C
-IT19204062 - Chamudini H.A.N
+- IT19143828 - Munasinghe M.A.S.S 
+- IT19220048 - Jayasekara D.D.K.G
+- IT19099132 - Rajakaruna R.W.P.C
+- IT19204062 - Chamudini H.A.N
