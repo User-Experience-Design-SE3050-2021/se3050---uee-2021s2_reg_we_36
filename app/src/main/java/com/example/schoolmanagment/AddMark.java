@@ -7,24 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ResultVIew extends AppCompatActivity {
+public class AddMark extends AppCompatActivity {
 
+    Button btnad ;
 
-    Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result_view);
+        setContentView(R.layout.activity_add_mark);
 
-        btn = findViewById(R.id.addmarkbtn);
+        btnad = findViewById(R.id.marksave);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+
+        btnad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i =new Intent(ResultVIew.this,AddMark.class);
+                Intent i =new Intent(AddMark.this,ResultVIew.class);
                 startActivity(i);
             }
         });
+
 
 
     }

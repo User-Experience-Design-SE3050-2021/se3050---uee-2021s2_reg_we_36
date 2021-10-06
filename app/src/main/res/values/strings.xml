@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">School Management System</string>
+    <string-array name="drop">
+        <item>3 A</item>
+        <item>3 B</item>
+        <item>3 C</item>
+        <item>3 D</item>
+    </string-array>
 </resources>

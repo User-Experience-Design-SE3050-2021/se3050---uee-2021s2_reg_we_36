@@ -21,7 +21,7 @@ public class TeacherHome extends AppCompatActivity {
         examView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), ResultVIew.class);
+                Intent i = new Intent(TeacherHome.this, ResultVIew.class);
                 startActivity(i);
             }
         });
