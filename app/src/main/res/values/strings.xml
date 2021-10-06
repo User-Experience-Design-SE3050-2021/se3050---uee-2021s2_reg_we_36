@@ -1,5 +1,36 @@
 <resources>
     <string name="app_name">School Management System</string>
+    <string name="Welcome">Welcome</string>
+    <string name="sclman">SCHOOL MANAGEMENT</string>
+    <string name="system">SYSTEM</string>
+    <string name="creidt">Re-Design By : Mind Maps co</string>
+    <string name="sname">Student Name</string>
+    <string name="Date">Date</string>
+    <string name="Save">Save</string>
+    <string name="choosop">Choose your option</string>
+    <string name="Teacher">Teacher</string>
+    <string name="Accountant">Accountant</string>
+    <string name="Admin">Admin</string>
+    <string name="Login">Login</string>
+    <string name="OR">OR</string>
+    <string name="Createnew">Create New Account</string>
+    <string name="cls">Class</string>
+    <string name="addmark">Add Marks</string>
+    <string name="studAtt">Student Attendance</string>
+    <string name="examRes">Exam Results</string>
+    <string name="Students">Students</string>
+    <string name="Claes">Classes</string>
+    <string name="teachlog">Teacher Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Forgotpass">Forgot Password ?</string>
+    <string name="needAcc">Need a account ? Sign up</string>
+    <string name="Status">Status :</string>
+    <string name="Subject">Subject</string>
+    <string name="Marks">Marks</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
     <string-array name="drop">
         <item>3 A</item>
         <item>3 B</item>

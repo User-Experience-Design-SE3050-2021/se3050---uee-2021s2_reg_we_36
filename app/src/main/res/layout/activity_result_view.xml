@@ -24,7 +24,7 @@
             android:layout_width="27dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Class"
+            android:text="@string/cls"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Date"
+            android:text="@string/Date"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -137,7 +137,7 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Marks"
+        android:text="@string/addmark"
         android:textColor="#000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"

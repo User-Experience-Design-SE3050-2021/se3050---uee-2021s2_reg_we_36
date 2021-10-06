@@ -24,7 +24,7 @@
             android:layout_width="27dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Class"
+            android:text="@string/cls"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Date"
+            android:text="@string/Date"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -111,7 +111,7 @@
             android:layout_width="179dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Student Name"
+            android:text="@string/sname"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -170,7 +170,7 @@
         android:layout_width="306dp"
         android:layout_height="48dp"
         android:backgroundTint="#5D5FEF"
-        android:text="Save"
+        android:text="@string/Save"
         app:layout_constraintBottom_toTopOf="@+id/imageView29"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

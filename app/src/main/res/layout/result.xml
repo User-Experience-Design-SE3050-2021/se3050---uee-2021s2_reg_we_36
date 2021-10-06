@@ -88,7 +88,7 @@ android:layout_marginBottom="8dp">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Status :"
+            android:text="@string/Status"
             android:textColor="#C52929" />
 
         <TextView
@@ -110,7 +110,7 @@ android:layout_marginBottom="8dp">
             android:layout_width="189dp"
             android:layout_height="37dp"
             android:paddingStart="2dp"
-            android:text="Subject"
+            android:text="@string/Subject"
             android:textColor="#000000" />
 
         <TextView
@@ -119,7 +119,7 @@ android:layout_marginBottom="8dp">
             android:layout_height="37dp"
             android:layout_weight="1"
             android:paddingLeft="2dp"
-            android:text="Marks"
+            android:text="@string/Marks"
             android:textColor="#000000" />
 
     </LinearLayout>
@@ -171,7 +171,7 @@ android:layout_marginBottom="8dp">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="Update"
+                android:text="@string/Update"
                 android:textAlignment="center"
                 android:textColor="#FFF" />
         </androidx.cardview.widget.CardView>
@@ -193,7 +193,7 @@ android:layout_marginBottom="8dp">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="Delete"
+                android:text="@string/Delete"
                 android:textAlignment="center"
                 android:textColor="#FFF" />
         </androidx.cardview.widget.CardView>
