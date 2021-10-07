@@ -11,6 +11,7 @@ public class Optionwindow extends AppCompatActivity {
 
     Button teach;
     Button admin;
+    Button acc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class Optionwindow extends AppCompatActivity {
 
         teach = findViewById(R.id.btnteach);
         admin = findViewById(R.id.btnAdmin);
+        acc = findViewById(R.id.btnacc);
 
 
         teach.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +36,14 @@ public class Optionwindow extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), AdminLoginActivity.class);
+                startActivity(i);
+            }
+        });
+
+        acc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), AccountantLogin.class);
                 startActivity(i);
             }
         });

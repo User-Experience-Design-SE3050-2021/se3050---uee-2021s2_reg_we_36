@@ -5,8 +5,10 @@
     <string name="passwordHint">************************</string>
     <string name="welcome">Welcome</string>
     <string name="admin_login">Admin Login</string>
+    <string name="acc_login">Accountant Login</string>
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password ?</string>
     <string name="need_a_account_sign_up">Need a account ? Sign up</string>
     <string name="pradeep_ranasinghe">pradeep_ranasinghe</string>
+    <string name="pawara_senanayaka">pawara_senanayaka</string>
 </resources>
