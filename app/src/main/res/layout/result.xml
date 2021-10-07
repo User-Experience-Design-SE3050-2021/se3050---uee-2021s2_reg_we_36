@@ -87,7 +87,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/stnametxt"
             android:layout_width="257dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -105,7 +105,7 @@
             android:textColor="#C52929" />
 
         <TextView
-            android:id="@+id/textView29"
+            android:id="@+id/stattxt"
             android:layout_width="58dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

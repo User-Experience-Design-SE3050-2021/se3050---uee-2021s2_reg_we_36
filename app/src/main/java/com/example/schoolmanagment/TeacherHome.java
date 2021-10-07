@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class TeacherHome extends AppCompatActivity {
 
-    Button examView;
+    Button examView,addstd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,11 +17,20 @@ public class TeacherHome extends AppCompatActivity {
         getSupportActionBar().hide();
 
         examView = findViewById(R.id.btnexam);
+        addstd = findViewById(R.id.student);
 
         examView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(TeacherHome.this, ResultVIew.class);
+                startActivity(i);
+            }
+        });
+
+        addstd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(TeacherHome.this, addstudent.class);
                 startActivity(i);
             }
         });

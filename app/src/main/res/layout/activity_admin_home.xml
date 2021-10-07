@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TeacherHome">
+    tools:context=".AdminHome">
 
     <ImageView
         android:id="@+id/imageView20"
@@ -47,7 +47,7 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Teacher"
+        android:text="@string/admin"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -57,13 +57,13 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView24" />
 
     <Button
-        android:id="@+id/btnexam"
+        android:id="@+id/btntran"
         android:layout_width="96dp"
         android:layout_height="108dp"
         android:backgroundTint="#E5E5FF"
         android:scaleType="fitXY"
         app:cornerRadius="10dp"
-        app:icon="@drawable/exam"
+        app:icon="@drawable/adduserico"
         app:iconTint="#0000FF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,7 @@
         app:icon="@drawable/atendico"
         app:iconTint="#0000FF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnexam"
+        app:layout_constraintEnd_toStartOf="@+id/btntran"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
@@ -92,8 +92,8 @@
 
     <ImageView
         android:id="@+id/imageView26"
-        android:layout_width="415dp"
-        android:layout_height="263dp"
+        android:layout_width="393dp"
+        android:layout_height="374dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,92 +101,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/yonteac" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="96dp"
-        android:layout_height="108dp"
-        android:backgroundTint="#E5E5FF"
-        android:scaleType="fitXY"
-        app:cornerRadius="10dp"
-        app:icon="@drawable/classs"
-        app:iconTint="#0000FF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.141"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/adminimg" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/studAtt"
+        android:text="@string/StaffAttendance"
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnacccc"
         app:layout_constraintVertical_bias="0.011" />
 
     <TextView
-        android:id="@+id/textView17"
-        android:layout_width="59dp"
-        android:layout_height="20dp"
-        android:text="@string/Claes"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.025" />
-
-    <Button
-        android:id="@+id/student"
-        android:layout_width="96dp"
-        android:layout_height="108dp"
-        android:backgroundTint="#E5E5FF"
-        android:scaleType="fitXY"
-        app:cornerRadius="10dp"
-        app:icon="@drawable/stt"
-        app:iconTint="#0000FF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.141"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/examRes"
+        android:text="@string/StaffManagement"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toEndOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/btnexam"
+        app:layout_constraintTop_toBottomOf="@+id/btntran"
         app:layout_constraintVertical_bias="0.011" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Students"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.757"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/student"
-        app:layout_constraintVertical_bias="0.03" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Optionwindow extends AppCompatActivity {
 
-    Button teach;
+    Button teach,acc, admin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +18,29 @@ public class Optionwindow extends AppCompatActivity {
         getSupportActionBar().hide();
 
         teach = findViewById(R.id.btnteach);
+        acc = findViewById(R.id.btnacc);
+        admin = findViewById(R.id.btnAdmin);
 
         teach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), TeacherLogin.class);
+                startActivity(i);
+            }
+        });
+
+        acc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), AccountHome.class);
+                startActivity(i);
+            }
+        });
+
+        admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), AdminHome.class);
                 startActivity(i);
             }
         });
