@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolManagment">
         <activity
+            android:name=".PopupClass"
+            android:exported="true"
+            android:theme="@style/Theme.pop"></activity>
+        <activity
             android:name=".AddMark"
             android:exported="true" />
         <activity

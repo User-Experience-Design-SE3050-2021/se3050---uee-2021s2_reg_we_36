@@ -21,7 +21,7 @@ public class ResultVIew extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i =new Intent(ResultVIew.this,AddMark.class);
+                Intent i =new Intent(ResultVIew.this,PopupClass.class);
                 startActivity(i);
             }
         });

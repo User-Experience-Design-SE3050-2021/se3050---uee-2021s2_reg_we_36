@@ -3,14 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/adnd/sms/app/src/main/res/drawable/popup_bg.xml" value="0.33796296296296297" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_add_mark.xml" value="0.3333333333333333" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_optionwindow.xml" value="0.4466666666666667" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_popup_class.xml" value="0.3333333333333333" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_reg_login.xml" value="0.3333333333333333" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_result_view.xml" value="0.3333333333333333" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_home.xml" value="0.3333333333333333" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_login.xml" value="0.4466666666666667" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/result.xml" value="0.3333333333333333" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/result.xml" value="0.4437627811860941" />
         <entry key="..\:/adnd/sms/app/src/main/res/menu/menu_main.xml" value="0.25277777777777777" />
         <entry key="..\:/adnd/sms/app/src/main/res/mipmap-anydpi-v26/ic_launchern.xml" value="0.11822916666666666" />
         <entry key="..\:/adnd/sms/app/src/main/res/mipmap-anydpi-v26/ic_launchern_round.xml" value="0.11822916666666666" />
