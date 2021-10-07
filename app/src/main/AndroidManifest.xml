@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolManagment">
         <activity
+            android:name=".AdminLoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".TeacherHome"
             android:exported="true" />
         <activity

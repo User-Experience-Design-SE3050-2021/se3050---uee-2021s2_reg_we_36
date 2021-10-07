@@ -10,6 +10,7 @@ import android.widget.Button;
 public class Optionwindow extends AppCompatActivity {
 
     Button teach;
+    Button admin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,21 @@ public class Optionwindow extends AppCompatActivity {
         getSupportActionBar().hide();
 
         teach = findViewById(R.id.btnteach);
+        admin = findViewById(R.id.btnAdmin);
+
 
         teach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), TeacherLogin.class);
+                startActivity(i);
+            }
+        });
+
+        admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), AdminLoginActivity.class);
                 startActivity(i);
             }
         });

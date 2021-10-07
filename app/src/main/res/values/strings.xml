@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">School Management System</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="passwordHint">************************</string>
+    <string name="welcome">Welcome</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="need_a_account_sign_up">Need a account ? Sign up</string>
+    <string name="pradeep_ranasinghe">pradeep_ranasinghe</string>
 </resources>
