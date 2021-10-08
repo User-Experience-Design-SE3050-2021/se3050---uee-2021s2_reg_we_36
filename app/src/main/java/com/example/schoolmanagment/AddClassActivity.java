@@ -52,7 +52,7 @@ public class AddClassActivity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), AccountantLogin.class);
+                Intent i = new Intent(getApplicationContext(), ViewClasses.class);
                 startActivity(i);
             }
         });

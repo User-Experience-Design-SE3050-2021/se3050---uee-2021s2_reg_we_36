@@ -45,6 +45,10 @@
     <string name="gurname"> Guardian Name *</string>
     <string name="gutphone"> Guardian Phone *</string>
     <string name="inname"> Saman Siriwardhana</string>
+    <string name="addclass"> Add Class</string>
+    <string name="classes">  Classes</string>
+    <string name="_3_a">3 A</string>
+    <string name="search_grade">Search Class</string>
     <string-array name="grade">
         <item>1-3</item>
         <item>3-5</item>
