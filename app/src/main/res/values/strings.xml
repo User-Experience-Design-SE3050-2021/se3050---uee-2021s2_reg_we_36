@@ -26,6 +26,25 @@
     <string name="selecttype">Select user type</string>
     <string name="register">Register</string>
     <string name="already_have_account_sign_in">Already have account? Sign in</string>
+    <string name="name">Name *</string>
+    <string name="dob">Date of Birth *</string>
+    <string name="indob">2002-10-27</string>
+    <string name="nic">NIC *</string>
+    <string name="innic">997373458V</string>
+    <string name="inpgone">0768234567</string>
+    <string name="indate">2021-08-24</string>
+    <string name="phone">Phone Number *</string>
+    <string name="jdate">Joining Date *</string>
+    <string name="des">Designation *</string>
+    <string name="addstaff">Add Staff</string>
+    <string name="addstu">Add Student</string>
+    <string name="stucl">Student Class *</string>
+    <string name="stuid">Student ID *</string>
+    <string name="stuname">Student Name *</string>
+    <string name="studob"> Student DOB *</string>
+    <string name="gurname"> Guardian Name *</string>
+    <string name="gutphone"> Guardian Phone *</string>
+    <string name="inname"> Saman Siriwardhana</string>
     <string-array name="grade">
         <item>1-3</item>
         <item>3-5</item>
@@ -45,6 +64,12 @@
         <item>Accountant</item>
         <item>Admin</item>
 
+    </string-array>
+    <string-array name="designation">
+        <item>Student attendance</item>
+        <item>Exam results</item>
+        <item>Classes</item>
+        <item>Students</item>
     </string-array>
 
 </resources>
