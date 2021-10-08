@@ -10,6 +10,7 @@ import android.widget.Button;
 public class RegLogin extends AppCompatActivity {
 
     Button login;
+    Button reg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,11 +18,20 @@ public class RegLogin extends AppCompatActivity {
         getSupportActionBar().hide();
 
         login = findViewById(R.id.loginbtnh);
+        reg = findViewById(R.id.btncreateh);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), Optionwindow.class);
+                startActivity(i);
+            }
+        });
+
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Registration.class);
                 startActivity(i);
             }
         });
