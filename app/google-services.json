@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "946389956508",
+    "firebase_url": "https://ueeschoolmanagment-default-rtdb.firebaseio.com",
+    "project_id": "ueeschoolmanagment",
+    "storage_bucket": "ueeschoolmanagment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946389956508:android:0fe29b18b5d37a1fe17a59",
+        "android_client_info": {
+          "package_name": "com.example.schoolmanagment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946389956508-i31665piifte0irbvktvgrtreegi37qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCceyo_nF1MaGsRr7pLARldch720p4ncwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946389956508-i31665piifte0irbvktvgrtreegi37qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
