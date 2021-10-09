@@ -65,7 +65,7 @@
         app:srcCompat="@drawable/loglogo" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextuserlogName"
         android:layout_width="271dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -86,7 +86,7 @@
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextuserlogName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,11 +106,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextuserlogName"
         app:layout_constraintVertical_bias="0.046" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextuserlogPassword"
         android:layout_width="271dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -158,11 +158,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
         android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextuserlogName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextuserlogName"
         app:layout_constraintHorizontal_bias="0.964"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextuserlogName"
+        app:layout_constraintTop_toTopOf="@+id/editTextuserlogName"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/a" />
 
@@ -170,11 +170,11 @@
         android:id="@+id/imageView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextuserlogPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editTextuserlogPassword"
         app:layout_constraintHorizontal_bias="0.964"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextuserlogPassword"
+        app:layout_constraintTop_toTopOf="@+id/editTextuserlogPassword"
         app:layout_constraintVertical_bias="0.562"
         app:srcCompat="@drawable/b" />
 
@@ -190,7 +190,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextuserlogPassword"
         app:layout_constraintVertical_bias="0.222" />
 
     <TextView
@@ -207,7 +207,7 @@
         app:layout_constraintVertical_bias="0.166" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textlogsign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/needAcc"
