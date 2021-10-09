@@ -41,7 +41,7 @@ public class ResultVIew extends AppCompatActivity implements IresultListner{
     RecyclerView result_recycle;
     @BindView(R.id.mainlay)
     ConstraintLayout main_layout;
-    @BindView(R.id.spinner2)
+    @BindView(R.id.spinnerresutview)
     Spinner spine;
 
     FloatingActionButton fbt;
