@@ -9,7 +9,7 @@
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="360dp"
+        android:layout_width="370dp"
         android:layout_height="48dp"
         android:background="@drawable/shape"
         android:entries="@array/accountNum"

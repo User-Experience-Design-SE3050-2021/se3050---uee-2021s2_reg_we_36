@@ -43,4 +43,15 @@
         <item>MH87459663</item>
         <item>GF78412596</item>
     </array>
+    <string name="bank">Bank Name</string>
+    <array name="bankList">
+        <item>Select Bank</item>
+        <item>BOC</item>
+        <item>Commercial</item>
+        <item>Sampath</item>
+        <item>NDB</item>
+    </array>
+    <string name="accNo">Account Number</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="saveBtn">Save</string>
 </resources>
