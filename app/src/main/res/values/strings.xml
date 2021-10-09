@@ -29,4 +29,9 @@
         <item>Paid Students</item>
         <item>Non Paid Students</item>
     </array>
+    <string name="accountant">Accountant</string>
+    <string name="fName">Full Name</string>
+    <string name="acEmail">Email</string>
+    <string name="accPassword">Password</string>
+    <string name="accUpdate">Update</string>
 </resources>
