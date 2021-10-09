@@ -40,6 +40,10 @@
     <string name="StaffAttendance">Staff Attendance</string>
     <string name="StaffManagement">Staff Management</string>
     <string name="mark">Mark</string>
+    <string name="admin">Admin</string>
+    <string name="fullnaame">Full Name</string>
+    <string name="email">Email</string>
+    <string name="passw">Password</string>
     <string-array name="drop">
         <item>3 A</item>
         <item>3 B</item>
