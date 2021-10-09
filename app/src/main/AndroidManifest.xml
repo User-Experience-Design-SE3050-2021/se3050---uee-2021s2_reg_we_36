@@ -10,24 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolManagment">
         <activity
-            android:name=".addstudent"
-            android:exported="true" />
-        <activity
-            android:name=".AdminHome"
-            android:exported="true" />
-        <activity
-            android:name=".AccountHome"
-            android:exported="true" />
-        <activity
-            android:name=".PopupClass"
-            android:exported="true"
-            android:theme="@style/Theme.pop" />
-        <activity
-            android:name=".AddMark"
-            android:exported="true" />
-        <activity
-            android:name=".ResultVIew"
-            android:exported="true" />
         <activity
             android:name=".TeacherHome"
             android:exported="true" />

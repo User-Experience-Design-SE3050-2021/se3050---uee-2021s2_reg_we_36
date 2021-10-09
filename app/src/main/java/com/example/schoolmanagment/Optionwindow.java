@@ -21,6 +21,7 @@ public class Optionwindow extends AppCompatActivity {
         acc = findViewById(R.id.btnacc);
         admin = findViewById(R.id.btnAdmin);
 
+
         teach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
