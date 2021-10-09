@@ -36,7 +36,7 @@ public class AddMark extends AppCompatActivity implements IresultListner{
     RecyclerView addres_recycle;
     @BindView(R.id.addmain_const)
     ConstraintLayout resmain_layout;
-    @BindView(R.id.spinner2)
+    @BindView(R.id.spinneraddmark)
     Spinner spine;
 
     IresultListner iresultListner;
