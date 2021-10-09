@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolManagment">
         <activity
+            android:name=".ViewPaidStudents"
+            android:exported="true" />
+        <activity
             android:name=".AddFee"
             android:exported="true" />
         <activity

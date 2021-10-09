@@ -9,14 +9,22 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_optionwindow.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_reg_login.xml" value="0.22" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_result_view.xml" value="0.12454710144927536" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_result_view.xml" value="0.20087336244541484" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_home.xml" value="0.18" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_login.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_view_paid_students.xml" value="0.22" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

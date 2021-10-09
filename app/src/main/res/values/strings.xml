@@ -25,4 +25,8 @@
     <string name="amountHint">2000.00</string>
     <string name="feeDate">Fee Date</string>
     <string name="dateHint">10/10/2021</string>
+    <array name="paid">
+        <item>Paid Students</item>
+        <item>Non Paid Students</item>
+    </array>
 </resources>
