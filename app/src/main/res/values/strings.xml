@@ -34,4 +34,8 @@
     <string name="acEmail">Email</string>
     <string name="accPassword">Password</string>
     <string name="accUpdate">Update</string>
+    <array name="nonPaid">
+        <item>Non Paid Students</item>
+        <item>Paid Students</item>
+    </array>
 </resources>
