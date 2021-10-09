@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/3rd Yr/2nd/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_login.xml" value="0.15" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_reg_login.xml" value="0.264" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_staff_attend_view.xml" value="0.4" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_student_attend_view.xml" value="0.176" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_login.xml" value="0.21014492753623187" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/loading_layout.xml" value="0.21014492753623187" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/notification_layout.xml" value="0.152" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/drawable/shape.xml" value="0.2203125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_add_fee.xml" value="0.22" />
@@ -18,10 +26,14 @@
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_add_mark.xml" value="0.21372031662269128" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_addstudent.xml" value="0.21388888888888888" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_admin_home.xml" value="0.34234234234234234" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_admin_profile.xml" value="0.35945945945945945" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_optionwindow.xml" value="0.22" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_optionwindow.xml" value="0.3333333333333333" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_popup_class.xml" value="0.3333333333333333" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_reg_login.xml" value="0.18045112781954886" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_result_view.xml" value="0.3333333333333333" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_home.xml" value="0.18125" />
+        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_login.xml" value="0.22" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_reg_login.xml" value="0.3333333333333333" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_result_view.xml" value="0.22" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_home.xml" value="0.3333333333333333" />
@@ -30,18 +42,12 @@
         <entry key="..\:/adnd/sms/app/src/main/res/layout/addresults.xml" value="0.22" />
         <entry key="..\:/adnd/sms/app/src/main/res/layout/result.xml" value="0.4437627811860941" />
         <entry key="..\:/adnd/sms/app/src/main/res/menu/menu_main.xml" value="0.25277777777777777" />
-        <entry key="..\:/3rd Yr/2nd/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_login.xml" value="0.15" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_optionwindow.xml" value="0.22" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_reg_login.xml" value="0.18045112781954886" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_home.xml" value="0.18125" />
-        <entry key="..\:/adnd/sms/app/src/main/res/layout/activity_teacher_login.xml" value="0.22" />
         <entry key="..\:/adnd/sms/app/src/main/res/mipmap-anydpi-v26/ic_launchern.xml" value="0.11822916666666666" />
         <entry key="..\:/adnd/sms/app/src/main/res/mipmap-anydpi-v26/ic_launchern_round.xml" value="0.11822916666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="VisualizationToolProject">

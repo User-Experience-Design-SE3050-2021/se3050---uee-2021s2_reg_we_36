@@ -60,7 +60,6 @@
     <string name="Update">Update</string>
     <string name="Delete">Delete</string>
     <string name="section">Section</string>
-    <string name="cancel">Cancel</string>
     <string name="next">Next</string>
     <string name="Accounts">Accounts</string>
     <string name="Transaction">Transaction</string>
@@ -142,6 +141,18 @@
     <string name="classes">  Classes</string>
     <string name="_3_a">3 A</string>
     <string name="search_grade">Search Class</string>
+    <string name="staffname">Staff Name</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="viewattend">View Attendance</string>
+    <string name="count">Count</string>
+    <string name="desig">Designation</string>
+    <string name="stdname">Student Name</string>
+    <string-array name="desig">
+        <item>Teacher</item>
+        <item>Accountant</item>
+        <item>Non Academic</item>
+    </string-array>
     <string-array name="grade">
         <item>1-3</item>
         <item>3-5</item>
@@ -150,12 +161,7 @@
         <item>10-11</item>
         <item>12-13</item>
     </string-array>
-    <string-array name="drop">
-        <item>3 A</item>
-        <item>3 B</item>
-        <item>3 C</item>
-        <item>3 D</item>
-    </string-array>
+
     <string-array name="selectusertype">
         <item>Teacher</item>
         <item>Accountant</item>

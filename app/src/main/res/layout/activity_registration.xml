@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/regis2" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/picImage"
         android:layout_width="174dp"
         android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
@@ -39,18 +39,20 @@
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/fullName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/picImage"
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/fullName"
         android:layout_width="271dp"
         android:layout_height="48dp"
         android:layout_marginBottom="392dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableStart="@drawable/admin"
         android:ems="10"
         android:hint="@string/kasun_silva"
         android:inputType="textPersonName"
@@ -58,9 +60,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        app:layout_constraintVertical_bias="0.604"
-        android:background="@drawable/edittext_bg"/>
+        app:layout_constraintTop_toBottomOf="@+id/picImage"
+        app:layout_constraintVertical_bias="0.604" />
 
     <TextView
         android:id="@+id/textView1"
@@ -76,21 +77,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName1"
+        android:id="@+id/email"
         android:layout_width="271dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
-        android:ems="10"
         android:background="@drawable/edittext_bg"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:ems="10"
         android:hint="@string/emailb"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
 
 
     <TextView
@@ -107,19 +109,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName1" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <Spinner
-        android:id="@+id/editTextTextPersonName12"
+        android:id="@+id/userType"
         android:layout_height="48dp"
         android:layout_width="271dp"
         android:background="@drawable/edittext_bg"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName1"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         android:ems="10"
-        android:entries="@array/selectusertype"
         android:inputType="textPersonName"
         app:layout_constraintHorizontal_bias="0.407"/>
 
@@ -135,11 +136,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+        app:layout_constraintTop_toBottomOf="@+id/userType" />
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/password"
         android:layout_width="271dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
@@ -150,7 +151,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+        app:layout_constraintTop_toBottomOf="@+id/userType" />
 
 
     <TextView
@@ -166,10 +167,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/conpassword"
         android:layout_width="271dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
@@ -180,7 +181,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <Button
         android:id="@+id/Regisbtn"
@@ -194,10 +195,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/conpassword" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/gotoSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/already_have_account_sign_in"
@@ -207,6 +208,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Regisbtn"
         app:layout_constraintVertical_bias="0.14" />
+
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="wrap_content"
