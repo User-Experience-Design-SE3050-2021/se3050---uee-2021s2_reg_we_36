@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolManagment">
         <activity
+            android:name=".AddAccount"
+            android:exported="true" />
+        <activity
+            android:name=".ViewAccount"
+            android:exported="true" />
+        <activity
+            android:name=".AddFee"
+            android:exported="true" />
+        <activity
             android:name=".NonPaidStudents"
             android:exported="true" />
         <activity
@@ -22,7 +31,7 @@
             android:name=".ViewPaidStudents"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Transaction"
             android:exported="true" />
         <activity
             android:name=".ResultVIew"
@@ -40,7 +49,7 @@
             android:name=".RegLogin"
             android:exported="true" />
         <activity
-            android:name=".AddFee"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

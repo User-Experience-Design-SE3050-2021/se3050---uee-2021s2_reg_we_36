@@ -22,7 +22,7 @@
         <item>December</item>
     </array>
     <string name="feeAmount">Amount</string>
-    <string name="amountHint">2000.00</string>
+    <string name="amountHint">  2000.00</string>
     <string name="feeDate">Fee Date</string>
     <string name="dateHint">10/10/2021</string>
     <array name="paid">
@@ -37,5 +37,10 @@
     <array name="nonPaid">
         <item>Non Paid Students</item>
         <item>Paid Students</item>
+    </array>
+    <array name="accountNum">
+        <item>Select Account</item>
+        <item>MH87459663</item>
+        <item>GF78412596</item>
     </array>
 </resources>
