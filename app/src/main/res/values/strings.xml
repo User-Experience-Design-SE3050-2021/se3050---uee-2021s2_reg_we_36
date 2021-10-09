@@ -1,5 +1,34 @@
 <resources>
     <string name="app_name">School Management System</string>
+    <array name="accountType">
+        <item>Select Account Type</item>
+        <item>Saving</item>
+    </array>
+    <string name="studentRollNum">Student roll Number</string>
+    <string name="rollNumHint">S2014242</string>
+    <string name="Month">Month</string>
+    <array name="monthList">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <string name="feeAmount">Amount</string>
+    <string name="amountHint">2000.00</string>
+    <string name="feeDate">Fee Date</string>
+    <string name="dateHint">10/10/2021</string>
+    <array name="paid">
+        <item>Paid Students</item>
+        <item>Non Paid Students</item>
+    </array>
     <string name="Welcome">Welcome</string>
     <string name="sclman">SCHOOL MANAGEMENT</string>
     <string name="system">SYSTEM</string>
