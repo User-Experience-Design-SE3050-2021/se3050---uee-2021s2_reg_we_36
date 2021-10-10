@@ -37,12 +37,10 @@
         android:id="@+id/imageView13"
         android:layout_width="144dp"
         android:layout_height="99dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/logo" />
 
     <ImageView
@@ -111,7 +109,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/sRollNum"
         android:layout_width="370dp"
         android:layout_height="45dp"
         android:layout_marginStart="5dp"
@@ -138,7 +136,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/accountSelect"
         app:layout_constraintVertical_bias="0.069" />
 
     <TextView
@@ -152,11 +150,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/sRollNum"
         app:layout_constraintVertical_bias="0.051" />
 
     <Spinner
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/monthSelect"
         android:layout_width="370dp"
         android:layout_height="45dp"
         android:layout_marginStart="5dp"
@@ -173,7 +171,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/accountSelect"
         android:layout_width="371dp"
         android:layout_height="45dp"
         android:layout_marginStart="5dp"
@@ -197,7 +195,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/monthSelect"
         app:layout_constraintVertical_bias="0.062" />
 
     <TextView
@@ -215,7 +213,7 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/sAmount"
         android:layout_width="370dp"
         android:layout_height="45dp"
         android:layout_marginStart="5dp"
@@ -243,11 +241,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/sAmount"
         app:layout_constraintVertical_bias="0.124" />
 
     <EditText
-        android:id="@+id/editTextDate2"
+        android:id="@+id/sDate"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginStart="5dp"
