@@ -41,7 +41,8 @@
                 android:hint="mark"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textColor="#4FB643" />
+                android:textColor="#4FB643"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

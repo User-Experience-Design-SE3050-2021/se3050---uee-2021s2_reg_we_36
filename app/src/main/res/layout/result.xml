@@ -147,9 +147,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/shape_bg"
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:paddingStart="5dp"
             android:text="math"
             android:textSize="14sp" />
 
@@ -158,10 +160,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/shape_bg"
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:paddingStart="5dp"
             android:text="75"
+            android:textAlignment="textStart"
             android:textSize="14sp" />
 
     </LinearLayout>

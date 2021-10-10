@@ -43,6 +43,7 @@
     <string name="fullnaame">Full Name</string>
     <string name="email">Email</string>
     <string name="passw">Password</string>
+    <string name="seldate">Select Date</string>
     <string-array name="drop">
         <item>3 A</item>
         <item>3 B</item>

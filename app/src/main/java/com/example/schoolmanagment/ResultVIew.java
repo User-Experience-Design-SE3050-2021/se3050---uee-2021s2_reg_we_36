@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.Spinner;
 
 import com.example.schoolmanagment.adapter.resultAdapter;
@@ -43,6 +44,8 @@ public class ResultVIew extends AppCompatActivity implements IresultListner{
     ConstraintLayout main_layout;
     @BindView(R.id.spinnerresutview)
     Spinner spine;
+    @BindView(R.id.dateshw)
+    Button shwDate;
 
     FloatingActionButton fbt;
 
@@ -83,6 +86,25 @@ public class ResultVIew extends AppCompatActivity implements IresultListner{
 
         init();
         loadItem();
+
+        //date picker
+        DatePicker datePicker = (DatePicker)findViewById(R.id.simpleDatePicker); // initiate a date picker
+
+        datePicker.setSpinnersShown(false); // set false value for the spinner shown function
+
+        //show hide date picker
+        shwDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (datePicker.getVisibility() == View.GONE){
+                    datePicker.setVisibility(View.VISIBLE);
+                }else{
+                    datePicker.setVisibility(View.GONE);
+                }
+            }
+        });
+
+
 
 
     }

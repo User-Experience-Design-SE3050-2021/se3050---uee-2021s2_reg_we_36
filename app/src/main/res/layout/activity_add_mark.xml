@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="413dp"
+        android:layout_width="0dp"
         android:layout_height="37dp"
         android:background="#0C46C4"
         android:orientation="horizontal"
@@ -50,14 +50,13 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
-        <EditText
-            android:id="@+id/editTextDate"
-            android:layout_width="80dp"
+        <Button
+            android:id="@+id/dateshw"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
-            android:inputType="date"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:text="@string/seldate"
+            app:backgroundTint="#0C46C4" />
     </LinearLayout>
 
     <Spinner
