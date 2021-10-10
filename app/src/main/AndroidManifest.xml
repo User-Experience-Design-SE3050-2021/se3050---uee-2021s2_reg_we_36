@@ -16,6 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolManagment">
         <activity
+            android:name=".ViewStaff"
+            android:exported="true" />
+        <activity
+            android:name=".ViewStudents"
+            android:exported="true" />
+        <activity
+            android:name=".ViewClasses"
+                  android:exported="true" />
+        <activity
             android:name=".AddAccount"
             android:exported="true" />
         <activity
