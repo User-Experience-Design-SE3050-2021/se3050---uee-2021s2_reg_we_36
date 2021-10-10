@@ -50,7 +50,7 @@
             android:id="@+id/imageView11"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/attendanceicon" />
+            app:srcCompat="@drawable/component_55" />
     </LinearLayout>
 
     <ScrollView
@@ -89,8 +89,8 @@
 
             <LinearLayout
                 android:id="@+id/linearLayout"
-                android:layout_width="413dp"
-                android:layout_height="37dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:background="#0C46C4"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -99,7 +99,7 @@
 
                 <TextView
                     android:id="@+id/destext"
-                    android:layout_width="27dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/des"
@@ -134,14 +134,14 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="date"
-                    tools:ignore="SpeakableTextPresentCheck" />
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
             <Spinner
                 android:id="@+id/spinner2"
                 android:layout_width="360dp"
                 android:layout_height="48dp"
-                android:entries="@array/designation"
+                android:entries="@array/grade"
                 android:minHeight="48dp"
                 app:cornerRadius="30dp"
                 app:layout_constraintEnd_toEndOf="parent"

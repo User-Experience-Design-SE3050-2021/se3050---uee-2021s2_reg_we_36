@@ -33,6 +33,8 @@ public class TeacherHome extends AppCompatActivity {
     Button btnacccc;
     @BindView(R.id.button3)
     Button button3;
+
+
     User cus = new User();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
