@@ -9,9 +9,7 @@ import android.widget.Button;
 
 public class Optionwindow extends AppCompatActivity {
 
-    Button teach;
-    Button admin;
-    Button acc;
+    Button teach,acc, admin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +18,8 @@ public class Optionwindow extends AppCompatActivity {
         getSupportActionBar().hide();
 
         teach = findViewById(R.id.btnteach);
-        admin = findViewById(R.id.btnAdmin);
         acc = findViewById(R.id.btnacc);
+        admin = findViewById(R.id.btnAdmin);
 
 
         teach.setOnClickListener(new View.OnClickListener() {
@@ -32,18 +30,18 @@ public class Optionwindow extends AppCompatActivity {
             }
         });
 
-        admin.setOnClickListener(new View.OnClickListener() {
+        acc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), AdminLoginActivity.class);
+                Intent i = new Intent(getApplicationContext(), AccountHome.class);
                 startActivity(i);
             }
         });
 
-        acc.setOnClickListener(new View.OnClickListener() {
+        admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), AccountantLogin.class);
+                Intent i = new Intent(getApplicationContext(), AdminHome.class);
                 startActivity(i);
             }
         });

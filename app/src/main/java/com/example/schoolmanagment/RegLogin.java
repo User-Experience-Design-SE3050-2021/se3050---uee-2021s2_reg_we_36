@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 public class RegLogin extends AppCompatActivity {
@@ -19,6 +20,7 @@ public class RegLogin extends AppCompatActivity {
 
         login = findViewById(R.id.loginbtnh);
         reg = findViewById(R.id.btncreateh);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.schoolmanagment">
 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,24 +23,73 @@
             android:exported="true" />
         <activity
             android:name=".ViewClasses"
+                  android:exported="true" />
+        <activity
+            android:name=".AddAccount"
             android:exported="true" />
         <activity
-            android:name=".AddStudent"
+            android:name=".ViewAccount"
+            android:exported="true" />
+      <activity
+            android:name=".StudentAttendView"
             android:exported="true" />
         <activity
-            android:name=".AddStaff"
+            android:name=".StudentAttendance"
             android:exported="true" />
         <activity
-            android:name=".Registration"
+            android:name=".StaffAttendView"
+            android:exported="true" />
+        <activity
+            android:name=".StaffAttendance"
+            android:exported="true" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="true" />
+        <activity
+            android:name=".AdminProfile"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherProfile"
             android:exported="true" />
         <activity
             android:name=".AddClassActivity"
             android:exported="true" />
         <activity
-            android:name=".AccountantLogin"
+            android:name=".addstudent"
             android:exported="true" />
         <activity
-            android:name=".AdminLoginActivity"
+            android:name=".AddStaff"
+            android:exported="true" />
+        <activity
+            android:name=".AddFee"
+            android:exported="true" />
+        <activity
+            android:name=".NonPaidStudents"
+            android:exported="true" />
+        <activity
+            android:name=".AccountantProfile"
+            android:exported="true" />
+        <activity
+            android:name=".ViewPaidStudents"
+            android:exported="true" />
+        <activity
+            android:name=".Transaction"
+            android:exported="true" />
+        <activity
+            android:name=".AccountHome"
+            android:exported="true" />
+        <activity
+            android:name=".PopupClass"
+            android:exported="true"
+            android:theme="@style/Theme.pop" />
+        <activity
+            android:name=".AddMark"
+            android:exported="true" />
+        <activity
+            android:name=".ResultVIew"
+            android:exported="true" />
+        <activity
+            android:name=".AccountantLogin"
             android:exported="true" />
         <activity
             android:name=".TeacherHome"
@@ -46,7 +101,16 @@
             android:name=".Optionwindow"
             android:exported="true" />
         <activity
+            android:name=".AdminLoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".RegLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="true" />
+        <activity
+            android:name=".ViewClasses"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

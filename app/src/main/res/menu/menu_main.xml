@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_token"
+            android:title="Token" />
+        <item
+            android:id="@+id/nav_tour"
+            android:title="Make a tour" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="Schedule" />
+
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_signin"
+                    android:title="Sign in" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Log out" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
