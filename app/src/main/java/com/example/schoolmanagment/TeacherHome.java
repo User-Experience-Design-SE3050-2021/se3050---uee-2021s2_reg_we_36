@@ -54,7 +54,7 @@ public class TeacherHome extends AppCompatActivity {
         addstd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(TeacherHome.this, addstudent.class);
+                Intent i = new Intent(TeacherHome.this, ViewStudents.class);
                 startActivity(i);
             }
         });
