@@ -22,13 +22,38 @@
         <item>December</item>
     </array>
     <string name="feeAmount">Amount</string>
-    <string name="amountHint">2000.00</string>
+    <string name="amountHint">  2000.00</string>
     <string name="feeDate">Fee Date</string>
     <string name="dateHint">10/10/2021</string>
     <array name="paid">
         <item>Paid Students</item>
         <item>Non Paid Students</item>
     </array>
+    <string name="accountant">Accountant</string>
+    <string name="fName">Full Name</string>
+    <string name="acEmail">Email</string>
+    <string name="accPassword">Password</string>
+    <string name="accUpdate">Update</string>
+    <array name="nonPaid">
+        <item>Non Paid Students</item>
+        <item>Paid Students</item>
+    </array>
+    <array name="accountNum">
+        <item>Select Account</item>
+        <item>MH87459663</item>
+        <item>GF78412596</item>
+    </array>
+    <string name="bank">Bank Name</string>
+    <array name="bankList">
+        <item>Select Bank</item>
+        <item>BOC</item>
+        <item>Commercial</item>
+        <item>Sampath</item>
+        <item>NDB</item>
+    </array>
+    <string name="accNo">Account Number</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="saveBtn">Save</string>
     <string name="Welcome">Welcome</string>
     <string name="sclman">SCHOOL MANAGEMENT</string>
     <string name="system">SYSTEM</string>
@@ -137,8 +162,14 @@
     <string name="inname"> Saman Siriwardhana</string>
     <string name="addclass"> Add Class</string>
     <string name="classes">  Classes</string>
+    <string name="clss">  Class :</string>
+    <string name="date"> Date :</string>
     <string name="_3_a">3 A</string>
+    <string name="teacher">Teacher</string>
     <string name="search_grade">Search Class</string>
+    <string name="search_student">Search Student</string>
+    <string name="search_staff">Search Staff</string>
+
     <string name="staffname">Staff Name</string>
     <string name="present">Present</string>
     <string name="absent">Absent</string>
@@ -151,6 +182,7 @@
         <item>Accountant</item>
         <item>Non Academic</item>
     </string-array>
+
     <string-array name="grade">
         <item>1-3</item>
         <item>3-5</item>
@@ -174,3 +206,4 @@
     </string-array>
 
 </resources>
+

@@ -104,7 +104,7 @@
         app:srcCompat="@drawable/accimg" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnFee"
         android:layout_width="96dp"
         android:layout_height="108dp"
         android:backgroundTint="#E5E5FF"
@@ -144,7 +144,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/btnFee"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView

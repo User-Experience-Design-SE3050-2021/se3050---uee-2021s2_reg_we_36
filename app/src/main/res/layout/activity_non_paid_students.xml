@@ -2,10 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mainlay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultVIew">
+    tools:context=".NonPaidStudents">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -25,7 +24,7 @@
             android:layout_width="27dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/cls"
+            android:text="Class"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -46,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/Date"
+            android:text="Date"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
@@ -61,13 +60,13 @@
     </LinearLayout>
 
     <Spinner
-        android:id="@+id/spinnerresutview"
+        android:id="@+id/spinner2"
         android:layout_width="360dp"
         android:layout_height="48dp"
-        android:entries="@array/drop"
+        android:background="@drawable/shape"
+        android:entries="@array/nonPaid"
         android:minHeight="48dp"
         app:cornerRadius="30dp"
-        android:background="@drawable/shape_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -80,26 +79,25 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/shape_bg"
         android:ems="10"
         android:hint="Search"
+        android:background="@drawable/shape"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textAlignment="center"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerresutview"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"
         app:layout_constraintVertical_bias="0.03"
         tools:ignore="TouchTargetSizeCheck" />
 
 
     <ImageView
         android:id="@+id/imageView30"
-        android:layout_width="409dp"
-        android:layout_height="357dp"
+        android:layout_width="417dp"
+        android:layout_height="356dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,8 +109,8 @@
 
     <ImageView
         android:id="@+id/imageView31"
-        android:layout_width="396dp"
-        android:layout_height="321dp"
+        android:layout_width="411dp"
+        android:layout_height="320dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,48 +120,15 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/reccc" />
 
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/addmark"
-        android:textColor="#000000"
-        android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/floatingActionBtb"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionBtb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FA0202"
-        android:clickable="true"
-        app:backgroundTint="#F80505"
-        app:fabSize="mini"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926"
-        app:rippleColor="#FFFFFF"
-        app:srcCompat="@drawable/plus"
-        app:tint="#FFFFFF"
-        tools:ignore="SpeakableTextPresentCheck" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/result_recycle"
-        android:layout_width="358dp"
-        android:layout_height="512dp"
+        android:layout_width="361dp"
+        android:layout_height="525dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.193" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
