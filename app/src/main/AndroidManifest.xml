@@ -28,7 +28,7 @@
             android:name=".AccountantProfile"
             android:exported="true" />
         <activity
-            android:name=".ViewPaidStudents"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Transaction"
@@ -49,7 +49,7 @@
             android:name=".RegLogin"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ViewPaidStudents"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

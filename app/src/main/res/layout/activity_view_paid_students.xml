@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ViewPaidStudents">
@@ -14,49 +15,34 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="27dp"
+            android:layout_width="5dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Class"
+            android:paddingTop="5dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
         <TextView
             android:id="@+id/editTextTextPersonName3"
-            android:layout_width="70dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="32dp"
+            android:paddingTop="5dp"
             android:text="3 A"
             android:textColor="#FFFFFF"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Date"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF" />
-
-        <EditText
-            android:id="@+id/editTextDate"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="date"
-            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <Spinner
@@ -96,8 +82,8 @@
 
     <ImageView
         android:id="@+id/imageView30"
-        android:layout_width="409dp"
-        android:layout_height="357dp"
+        android:layout_width="425dp"
+        android:layout_height="359dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,8 +95,8 @@
 
     <ImageView
         android:id="@+id/imageView31"
-        android:layout_width="396dp"
-        android:layout_height="321dp"
+        android:layout_width="412dp"
+        android:layout_height="323dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,9 +141,9 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/result_recycle"
-        android:layout_width="366dp"
-        android:layout_height="435dp"
+        android:id="@+id/fee_recycle"
+        android:layout_width="373dp"
+        android:layout_height="380dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
