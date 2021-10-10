@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
@@ -21,29 +22,30 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class TeacherHome extends AppCompatActivity {
     NotifyDialog notifyDialog;
     Button examView,addstd;
     @BindView(R.id.imageView24)
     ImageView imageView20;
+    @BindView(R.id.btnacccc)
+    Button btnacccc;
     User cus = new User();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teacher_home);
-        getSupportActionBar().hide();
 
+        ButterKnife.bind(this);
         notifyDialog = new NotifyDialog(this);
         examView = findViewById(R.id.btnexam);
         addstd = findViewById(R.id.student);
         getUser();
-        examView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(TeacherHome.this, ResultVIew.class);
-                startActivity(i);
-            }
+        btnacccc.setOnClickListener(view -> startActivity(new Intent(TeacherHome.this,StudentAttendView.class)));
+        examView.setOnClickListener(view -> {
+            Intent i = new Intent(TeacherHome.this, ResultVIew.class);
+            startActivity(i);
         });
 
         addstd.setOnClickListener(new View.OnClickListener() {
