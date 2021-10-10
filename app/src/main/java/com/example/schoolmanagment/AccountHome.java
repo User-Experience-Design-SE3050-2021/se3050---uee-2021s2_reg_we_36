@@ -60,7 +60,7 @@ public class AccountHome extends AppCompatActivity {
             startActivity(i);
         });
 
-        profile.setOnClickListener(new View.OnClickListener() {
+        imageView20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(AccountHome.this, AccountantProfile.class);

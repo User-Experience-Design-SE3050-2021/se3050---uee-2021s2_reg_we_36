@@ -47,7 +47,7 @@ public class TeacherHome extends AppCompatActivity {
         addstd = findViewById(R.id.student);
         getUser();
         button3.setOnClickListener(view -> startActivity(new Intent(TeacherHome.this,ViewClasses.class)));
-        btnacccc.setOnClickListener(view -> startActivity(new Intent(TeacherHome.this,StudentAttendView.class)));
+        btnacccc.setOnClickListener(view -> startActivity(new Intent(TeacherHome.this,StudentAttendance.class)));
         examView.setOnClickListener(view -> {
             Intent i = new Intent(TeacherHome.this, ResultVIew.class);
             startActivity(i);
