@@ -1,5 +1,6 @@
 package com.example.schoolmanagment;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -15,7 +16,12 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.example.schoolmanagment.modal.Classes;
 import com.example.schoolmanagment.utill.NotifyDialog;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -77,14 +83,38 @@ public class AddClassActivity extends AppCompatActivity {
                 }  if (TextUtils.isEmpty(txtClassgrade.getSelectedItem().toString())) {
                     ((TextView)txtClassgrade.getSelectedView()).setError("Select class grade");
                     return;
-                } if(TextUtils.isEmpty(txtClassName.getText().toString())){
-                    txtClassName.setError("Class teacher name is required.");
+                } if(TextUtils.isEmpty(txtTeachername.getText().toString())){
+                    txtTeachername.setError("Class teacher name is required.");
                     return;
                 }
+                DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Class");
+                String key = ref.push().getKey();
+
+                Classes classes = new Classes();
+                classes.setName(txtClassName.getText().toString());
+                classes.setTeacherName(txtTeachername.getText().toString());
+                classes.setGrade(txtClassgrade.getSelectedItem().toString());
+                classes.setStudentCount("23");
+                classes.setKey(key);
 
 
-                Intent i = new Intent(getApplicationContext(), ViewClasses.class);
-                startActivity(i);
+
+                ref.child(key).setValue(classes).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void unused) {
+                        notifyDialog.showNotifyDialog("","Successfully class added");
+                        Intent i = new Intent(getApplicationContext(), ViewClasses.class);
+                        startActivity(i);
+
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+
+                        notifyDialog.showNotifyDialog("error","Class add fail \n" + e.getMessage());
+
+                    }
+                });
             }
         });
 

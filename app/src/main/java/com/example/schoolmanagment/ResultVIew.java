@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import com.example.schoolmanagment.adapter.resultAdapter;
@@ -43,6 +44,8 @@ public class ResultVIew extends AppCompatActivity implements IresultListner{
     ConstraintLayout main_layout;
     @BindView(R.id.spinnerresutview)
     Spinner spine;
+    @BindView(R.id.btnBack)
+    ImageView btnBack;
 
     FloatingActionButton fbt;
 
@@ -83,7 +86,7 @@ public class ResultVIew extends AppCompatActivity implements IresultListner{
 
         init();
         loadItem();
-
+        btnBack.setOnClickListener(view -> finish());
 
     }
 
