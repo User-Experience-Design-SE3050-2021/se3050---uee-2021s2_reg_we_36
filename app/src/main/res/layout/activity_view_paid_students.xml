@@ -21,6 +21,18 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
+            android:id="@+id/topic"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Paid Students"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <TextView
             android:id="@+id/textView20"
             android:layout_width="5dp"
             android:layout_height="wrap_content"
@@ -45,11 +57,12 @@
 
     </LinearLayout>
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="360dp"
-        android:layout_height="48dp"
-        android:entries="@array/paid"
+    <Button
+        android:id="@+id/type"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="View non Paid Students"
+        android:textAllCaps="false"
         android:background="@drawable/shape"
         android:minHeight="48dp"
         app:cornerRadius="30dp"
@@ -75,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintTop_toBottomOf="@+id/type"
         app:layout_constraintVertical_bias="0.03"
         tools:ignore="TouchTargetSizeCheck" />
 
