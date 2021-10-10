@@ -77,7 +77,6 @@ public class Registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-        getSupportActionBar().hide();
         ButterKnife.bind(this);
         notifyDialog = new NotifyDialog(this);
         loadingDialog = new LoadingDialog(this);

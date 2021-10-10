@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         topAnim = AnimationUtils.loadAnimation(this, R.anim.top_animation);
@@ -64,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     private void chkUser(){
         FirebaseAuth fAuth = FirebaseAuth.getInstance();
         if(fAuth.getCurrentUser() == null){
-            startActivity(new Intent(MainActivity.this, TeacherLogin.class));
+            startActivity(new Intent(MainActivity.this, RegLogin.class));
         }else {
             getUser();
         }

@@ -5,16 +5,18 @@
       <map>
         <entry key="..\:/3rd Yr/2nd/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_login.xml" value="0.15" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_accountant_login.xml" value="0.12360688956433637" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_add_class.xml" value="0.176" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_admin_home.xml" value="0.176" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_reg_login.xml" value="0.176" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_registration.xml" value="0.264" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_staff_attend_view.xml" value="0.176" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_staff_attendance.xml" value="0.1640625" />
-        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_student_attend_view.xml" value="0.176" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_student_attend_view.xml" value="0.264" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_student_attendance.xml" value="0.264" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_home.xml" value="0.264" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_teacher_login.xml" value="0.2" />
+        <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/activity_view_classes.xml" value="0.264" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/attendance_list.xml" value="0.176" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/header.xml" value="0.264" />
         <entry key="..\:/SLIIT/UEE/se3050---uee-2021s2_reg_we_36/app/src/main/res/layout/loading_layout.xml" value="0.21014492753623187" />

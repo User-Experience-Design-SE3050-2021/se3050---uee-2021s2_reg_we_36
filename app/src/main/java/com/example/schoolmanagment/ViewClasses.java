@@ -6,11 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class ViewClasses extends AppCompatActivity {
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
+public class ViewClasses extends AppCompatActivity {
+    //import back button
+    @BindView(R.id.btnBack)
+    ImageView backBtn;
     FloatingActionButton add;
 
     @Override
@@ -19,7 +25,9 @@ public class ViewClasses extends AppCompatActivity {
         setContentView(R.layout.activity_view_classes);
 
         add = findViewById(R.id.floatingActionBtb);
-
+        //back button code
+        ButterKnife.bind(this);
+        backBtn.setOnClickListener(view -> finish());
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
