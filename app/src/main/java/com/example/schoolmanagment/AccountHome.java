@@ -45,6 +45,10 @@ public class AccountHome extends AppCompatActivity {
             Intent i = new Intent(AccountHome.this, ViewAccount.class);
             startActivity(i);
         });
+        imageView20.setOnClickListener(view -> {
+            Intent i = new Intent(AccountHome.this, AdminProfile.class);
+            startActivity(i);
+        });
 
         transaction.setOnClickListener(view -> {
             Intent i = new Intent(AccountHome.this, Transaction.class);
