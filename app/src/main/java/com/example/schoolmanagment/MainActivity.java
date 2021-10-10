@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     private void chkUser(){
         FirebaseAuth fAuth = FirebaseAuth.getInstance();
         if(fAuth.getCurrentUser() == null){
-            startActivity(new Intent(MainActivity.this, TeacherLogin.class));
+            startActivity(new Intent(MainActivity.this, RegLogin.class));
         }else {
             getUser();
         }

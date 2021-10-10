@@ -31,6 +31,8 @@ public class TeacherHome extends AppCompatActivity {
     ImageView imageView20;
     @BindView(R.id.btnacccc)
     Button btnacccc;
+    @BindView(R.id.button3)
+    Button button3;
     User cus = new User();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,7 @@ public class TeacherHome extends AppCompatActivity {
         examView = findViewById(R.id.btnexam);
         addstd = findViewById(R.id.student);
         getUser();
+        button3.setOnClickListener(view -> startActivity(new Intent(TeacherHome.this,ViewClasses.class)));
         btnacccc.setOnClickListener(view -> startActivity(new Intent(TeacherHome.this,StudentAttendView.class)));
         examView.setOnClickListener(view -> {
             Intent i = new Intent(TeacherHome.this, ResultVIew.class);
