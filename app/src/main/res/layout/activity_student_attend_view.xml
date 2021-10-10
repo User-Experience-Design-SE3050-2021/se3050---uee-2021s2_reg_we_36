@@ -69,7 +69,6 @@
                 android:id="@+id/linearLayout3"
                 android:layout_width="391dp"
                 android:layout_height="21dp"
-                android:layout_marginEnd="3dp"
                 android:background="#F1EAD6"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -108,7 +107,7 @@
             <LinearLayout
                 android:id="@+id/linearLayout"
                 android:layout_width="0dp"
-                android:layout_height="37dp"
+                android:layout_height="wrap_content"
                 android:background="#0C46C4"
                 android:orientation="horizontal"
                 android:paddingStart="10dp"
@@ -119,10 +118,9 @@
 
                 <TextView
                     android:id="@+id/textView20"
-                    android:layout_width="27dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/cls"
+                    android:text="Class :"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF" />
 
@@ -130,7 +128,7 @@
                     android:id="@+id/editTextTextPersonName3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="3"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:minHeight="32dp"
@@ -142,19 +140,21 @@
                     android:id="@+id/textView21"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/Date"
+                    android:text="Date : "
                     android:textAlignment="center"
                     android:textColor="#FFFFFF" />
 
-                <EditText
-                    android:id="@+id/editTextDate"
-                    android:layout_width="80dp"
+
+                <Button
+                    android:id="@+id/shwDate"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="date"
-                    tools:ignore="SpeakableTextPresentCheck" />
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Select date"
+                    app:icon="@drawable/ic_baseline_calendar_today_24" />
+
             </LinearLayout>
 
             <EditText
@@ -231,6 +231,20 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+            <DatePicker
+                android:id="@+id/simpleDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#707070"
+                android:calendarTextColor="#000000"
+                android:datePickerMode="spinner"
+                android:padding="10dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
