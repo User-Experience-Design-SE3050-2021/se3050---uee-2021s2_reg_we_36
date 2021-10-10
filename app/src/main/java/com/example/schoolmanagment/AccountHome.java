@@ -60,6 +60,14 @@ public class AccountHome extends AppCompatActivity {
             startActivity(i);
         });
 
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(AccountHome.this, AccountantProfile.class);
+                startActivity(i);
+            }
+        });
+
     }
 
     private void getUser() {

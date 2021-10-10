@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Spinner;
 
 import com.example.schoolmanagment.adapter.feeAdapter;
 import com.example.schoolmanagment.listner.IfeeListner;
@@ -34,6 +36,9 @@ public class ViewPaidStudents extends AppCompatActivity implements IfeeListner {
     @BindView(R.id.mainLayout)
     ConstraintLayout main_layout;
 
+
+    Button type;
+
     FloatingActionButton fbt;
 
     IfeeListner ifeeListner;
@@ -44,6 +49,15 @@ public class ViewPaidStudents extends AppCompatActivity implements IfeeListner {
         setContentView(R.layout.activity_view_paid_students);
 
         fbt = findViewById(R.id.floatingActionBtb);
+        type = findViewById(R.id.type);
+
+        type.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(ViewPaidStudents.this, NonPaidStudents.class);
+                startActivity(i);
+            }
+        });
 
         fbt.setOnClickListener(new View.OnClickListener() {
             @Override
