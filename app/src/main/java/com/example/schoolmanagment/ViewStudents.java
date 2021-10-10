@@ -26,12 +26,9 @@ public class ViewStudents extends AppCompatActivity {
         ButterKnife.bind(this);
         add = findViewById(R.id.floatingActionBtb);
 
-        add.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), addstudent.class);
-                startActivity(i);
-            }
+        add.setOnClickListener(view -> {
+            Intent i = new Intent(getApplicationContext(), addstudent.class);
+            startActivity(i);
         });
         btnBack.setOnClickListener(view -> finish());
     }

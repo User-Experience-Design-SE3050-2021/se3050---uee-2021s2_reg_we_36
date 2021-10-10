@@ -169,6 +169,8 @@
     <string name="search_grade">Search Class</string>
     <string name="search_student">Search Student</string>
     <string name="search_staff">Search Staff</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
 
     <string name="staffname">Staff Name</string>
     <string name="present">Present</string>

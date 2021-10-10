@@ -4,160 +4,158 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FDFCFC"
     tools:context=".AccountHome">
 
     <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="414dp"
-        android:layout_height="210dp"
-        android:cropToPadding="false"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:src="@drawable/eeetop" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="142dp"
-        android:layout_height="133dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.207"
-        android:src="@drawable/eelogo" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="100dp"
-        android:layout_height="104dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
-        app:layout_constraintEnd_toEndOf="@+id/imageView24"
-        app:layout_constraintStart_toStartOf="@+id/imageView24"
-        app:layout_constraintTop_toTopOf="@+id/imageView24"
-        app:layout_constraintVertical_bias="0.689"
-        app:srcCompat="@drawable/subtract" />
-
-    <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Accountant"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
-
-    <Button
-        android:id="@+id/btntran"
-        android:layout_width="96dp"
-        android:layout_height="108dp"
-        android:backgroundTint="#E5E5FF"
-        android:scaleType="fitXY"
-        app:cornerRadius="10dp"
-        app:icon="@drawable/ttasd"
-        app:iconTint="#0000FF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.793"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.082"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <Button
-        android:id="@+id/btnacccc"
-        android:layout_width="96dp"
-        android:layout_height="108dp"
-        android:backgroundTint="#E5E5FF"
-        android:scaleType="fitXY"
-        app:cornerRadius="10dp"
-        app:icon="@drawable/accoico"
-        app:iconTint="#0000FF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btntran"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.082"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <ImageView
-        android:id="@+id/imageView26"
-        android:layout_width="282dp"
-        android:layout_height="339dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/accimg" />
 
-    <Button
-        android:id="@+id/btnFee"
-        android:layout_width="96dp"
-        android:layout_height="108dp"
-        android:backgroundTint="#E5E5FF"
-        android:scaleType="fitXY"
-        app:cornerRadius="10dp"
-        app:icon="@drawable/stpayico"
-        app:iconTint="#0000FF"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C6FDFDFD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.141"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Accounts"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnacccc"
-        app:layout_constraintVertical_bias="0.011" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="88dp"
-        android:layout_height="20dp"
-        android:text="@string/StudentFees"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFee"
-        app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/eeetop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Transaction"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.603"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/btntran"
-        app:layout_constraintVertical_bias="0.011" />
+            <Button
+                android:id="@+id/btntran"
+                android:layout_width="96dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="56dp"
+                android:backgroundTint="#E5E5FF"
+                android:scaleType="fitXY"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/ttasd"
+                app:iconTint="#0000FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.776"
+                app:layout_constraintStart_toEndOf="@+id/btnacccc"
+                app:layout_constraintTop_toBottomOf="@+id/imageView20"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Accounts"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView18"
+                app:layout_constraintEnd_toEndOf="@+id/btnacccc"
+                app:layout_constraintStart_toStartOf="@+id/btnacccc" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/Accountant"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView20"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="88dp"
+                android:layout_height="20dp"
+                android:text="@string/StudentFees"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/btnFee"
+                app:layout_constraintStart_toStartOf="@+id/btnFee"
+                app:layout_constraintTop_toBottomOf="@+id/btnFee" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="142dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/eelogo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="100dp"
+                android:layout_height="104dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+                app:layout_constraintEnd_toEndOf="@+id/imageView24"
+                app:layout_constraintStart_toStartOf="@+id/imageView24"
+                app:layout_constraintTop_toTopOf="@+id/imageView24"
+                app:srcCompat="@drawable/subtract" />
+
+            <Button
+                android:id="@+id/btnacccc"
+                android:layout_width="96dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="60dp"
+                android:backgroundTint="#E5E5FF"
+                android:scaleType="fitXY"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/accoico"
+                app:iconTint="#0000FF"
+                app:layout_constraintBaseline_toBaselineOf="@+id/btntran"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btnFee"
+                android:layout_width="96dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="28dp"
+                android:backgroundTint="#E5E5FF"
+                android:scaleType="fitXY"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/stpayico"
+                app:iconTint="#0000FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/Transaction"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/btntran"
+                app:layout_constraintStart_toStartOf="@+id/btntran"
+                app:layout_constraintTop_toBottomOf="@+id/btntran" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

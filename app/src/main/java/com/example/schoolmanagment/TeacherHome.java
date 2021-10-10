@@ -33,6 +33,8 @@ public class TeacherHome extends AppCompatActivity {
     Button btnacccc;
     @BindView(R.id.button3)
     Button button3;
+
+
     User cus = new User();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +52,10 @@ public class TeacherHome extends AppCompatActivity {
             Intent i = new Intent(TeacherHome.this, ResultVIew.class);
             startActivity(i);
         });
-
+        imageView20.setOnClickListener(view -> {
+            Intent i = new Intent(TeacherHome.this, AdminProfile.class);
+            startActivity(i);
+        });
         addstd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
