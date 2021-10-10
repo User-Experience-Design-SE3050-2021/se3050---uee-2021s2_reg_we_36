@@ -54,4 +54,149 @@
     <string name="accNo">Account Number</string>
     <string name="cancelBtn">Cancel</string>
     <string name="saveBtn">Save</string>
+    <string name="Welcome">Welcome</string>
+    <string name="sclman">SCHOOL MANAGEMENT</string>
+    <string name="system">SYSTEM</string>
+    <string name="creidt">Re-Design By : Mind Maps co</string>
+    <string name="sname">Student Name</string>
+    <string name="Date">Date</string>
+    <string name="Save">Save</string>
+    <string name="choosop">Choose your option</string>
+    <string name="Teacher">Teacher</string>
+    <string name="Accountant">Accountant</string>
+    <string name="Admin">Admin</string>
+    <string name="Login">Login</string>
+    <string name="OR">OR</string>
+    <string name="Createnew">Create New Account</string>
+    <string name="cls">Class</string>
+    <string name="addmark">Add Marks</string>
+    <string name="studAtt">Student Attendance</string>
+    <string name="examRes">Exam Results</string>
+    <string name="Students">Students</string>
+    <string name="Claes">Classes</string>
+    <string name="teachlog">Teacher Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Forgotpass">Forgot Password ?</string>
+    <string name="needAcc">Need a account ? Sign up</string>
+    <string name="Status">Status :</string>
+    <string name="Subject">Subject</string>
+    <string name="Marks">Marks</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="section">Section</string>
+    <string name="next">Next</string>
+    <string name="Accounts">Accounts</string>
+    <string name="Transaction">Transaction</string>
+    <string name="StudentFees">Student Fees</string>
+    <string name="StaffAttendance">Staff Attendance</string>
+    <string name="StaffManagement">Staff Management</string>
+    <string name="mark">Mark</string>
+    <string name="admin">Admin</string>
+    <string name="fullnaame">Full Name</string>
+    <string name="passw">Password</string>
+    <string-array name="drop">
+        <item>3 A</item>
+        <item>3 B</item>
+        <item>3 C</item>
+        <item>3 D</item>
+    </string-array>
+    <string-array name="section">
+        <item>1–3</item>
+        <item>3–5</item>
+        <item>6–7</item>
+        <item>8–9</item>
+        <item>10–11</item>
+        <item>12–13</item>
+    </string-array>
+    <string-array name="subj">
+        <item>Math</item>
+        <item>Music</item>
+        <item>Civic</item>
+        <item>History</item>
+    </string-array>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="repassword">Re-enter Password</string>
+    <string name="passwordHint">************************</string>
+    <string name="passwordbody">***********</string>
+    <string name="welcome">Welcome</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="acc_login">Accountant Login</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="need_a_account_sign_up">Need a account ? Sign up</string>
+    <string name="pradeep_ranasinghe">pradeep_ranasinghe</string>
+    <string name="pawara_senanayaka">pawara_senanayaka</string>
+    <string name="className">Class Name</string>
+    <string name="grade">Grade</string>
+    <string name="teacherName">Teacher Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="full_name">Full Name</string>
+    <string name="kasun_silva"> Kasun Silva</string>
+    <string name="email">Email</string>
+    <string name="emailb"> kasun@gmail.com</string>
+    <string name="usertype">User Type</string>
+    <string name="selecttype">Select user type</string>
+    <string name="register">Register</string>
+    <string name="already_have_account_sign_in">Already have account? Sign in</string>
+    <string name="name">Name *</string>
+    <string name="dob">Date of Birth *</string>
+    <string name="indob">2002-10-27</string>
+    <string name="nic">NIC *</string>
+    <string name="innic">997373458V</string>
+    <string name="inpgone">0768234567</string>
+    <string name="indate">2021-08-24</string>
+    <string name="phone">Phone Number *</string>
+    <string name="jdate">Joining Date *</string>
+    <string name="des">Designation *</string>
+    <string name="addstaff">Add Staff</string>
+    <string name="addstu">Add Student</string>
+    <string name="stucl">Student Class *</string>
+    <string name="stuid">Student ID *</string>
+    <string name="stuname">Student Name *</string>
+    <string name="studob"> Student DOB *</string>
+    <string name="gurname"> Guardian Name *</string>
+    <string name="gutphone"> Guardian Phone *</string>
+    <string name="inname"> Saman Siriwardhana</string>
+    <string name="addclass"> Add Class</string>
+    <string name="classes">  Classes</string>
+    <string name="_3_a">3 A</string>
+    <string name="search_grade">Search Class</string>
+    <string name="staffname">Staff Name</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="viewattend">View Attendance</string>
+    <string name="count">Count</string>
+    <string name="desig">Designation</string>
+    <string name="stdname">Student Name</string>
+    <string-array name="desig">
+        <item>Teacher</item>
+        <item>Accountant</item>
+        <item>Non Academic</item>
+    </string-array>
+    <string-array name="grade">
+        <item>1-3</item>
+        <item>3-5</item>
+        <item>6-7</item>
+        <item>8-9</item>
+        <item>10-11</item>
+        <item>12-13</item>
+    </string-array>
+
+    <string-array name="selectusertype">
+        <item>Teacher</item>
+        <item>Accountant</item>
+        <item>Admin</item>
+
+    </string-array>
+    <string-array name="designation">
+        <item>Student attendance</item>
+        <item>Exam results</item>
+        <item>Classes</item>
+        <item>Students</item>
+    </string-array>
+
 </resources>
+
