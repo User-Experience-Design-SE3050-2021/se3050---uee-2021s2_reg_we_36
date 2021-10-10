@@ -90,7 +90,7 @@ public class Registration extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.selectusertype, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         userType.setAdapter(adapter);
-
+        picImage.setOnClickListener(v -> FileChooser());
         gotoSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -110,7 +110,7 @@ public class Registration extends AppCompatActivity {
                 email.setError("email is Required.");
                 return;
             }    if (!Patterns.EMAIL_ADDRESS.matcher(mail).matches()) {
-                password.setError("Enter valid email address.");
+                email.setError("Enter valid email address.");
                 return;
             }
             if (TextUtils.isEmpty(type)) {
@@ -129,12 +129,13 @@ public class Registration extends AppCompatActivity {
                 conpassword.setError("Password mismatch.");
                 return;
             }
-            picImage.setOnClickListener(v -> FileChooser());
+
             register(name,mail,passw,type);
 
         });
     }
     private void register(String name, String mail, String pass, String type) {
+        loadingDialog.startLoadingDialog();
         fAuth.createUserWithEmailAndPassword(mail, pass).addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
 
@@ -153,6 +154,7 @@ public class Registration extends AppCompatActivity {
                         notifyDialog.showNotifyDialog("error","Sign up fail" );
                     }
                 });
+                loadingDialog.dismissLoadingDialog();
             } else {
                 Toast.makeText(Registration.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
             }
@@ -175,16 +177,16 @@ public class Registration extends AppCompatActivity {
         userID = fAuth.getCurrentUser().getUid();
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("User");
-        String key = ref.push().getKey();
+
 
         cus.setEmail(mail);
         cus.setName(name);
         cus.setType(type);
         cus.setPassword(passw);
         cus.setProPic(downUri.toString());
-        cus.setKey(key);
+        cus.setKey(userID);
 
-        ref.child(key).setValue(cus).addOnSuccessListener(unused -> {
+        ref.child(userID).setValue(cus).addOnSuccessListener(unused -> {
             Toast.makeText(Registration.this, "User Created.", Toast.LENGTH_SHORT).show();
 
             if (type.equals("Teacher")){
