@@ -24,6 +24,7 @@
                 android:layout_width="183dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
                 android:layout_weight="1"
                 android:text="TextView"
                 android:textColor="#000000" />
@@ -32,8 +33,10 @@
                 android:id="@+id/editmarkstd"
                 android:layout_width="3dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
+                android:background="@drawable/shape_bg"
                 android:ems="10"
                 android:hint="mark"
                 android:inputType="textPersonName"
